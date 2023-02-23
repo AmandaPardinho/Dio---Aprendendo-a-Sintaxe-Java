@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Dio---Aprendendo-a-Sintaxe-Java.iml" filepath="$PROJECT_DIR$/.idea/Dio---Aprendendo-a-Sintaxe-Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/anatomia-de-classes/anatomia-de-classes.iml" filepath="$PROJECT_DIR$/anatomia-de-classes/anatomia-de-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tipos-e-variaveis/tipos-e-variaveis.iml" filepath="$PROJECT_DIR$/tipos-e-variaveis/tipos-e-variaveis.iml" />
     </modules>
   </component>
 </project>
