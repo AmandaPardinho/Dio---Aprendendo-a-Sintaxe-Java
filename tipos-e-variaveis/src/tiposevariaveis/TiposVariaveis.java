@@ -1,2 +1,11 @@
-package tiposevariaveis;public class TiposVariaveis {
+package tiposevariaveis;
+
+public class TiposVariaveis {
+    public static void main(String[] args) {
+        short numeroCurto = 1;
+        int numeroNormal = numeroCurto;
+        short numeroCurto2 = (short) numeroNormal;
+        //cast: pega um tipo mais abrangente e converte para um tipo mais específico, pois é o tipo correspondente
+
+    }
 }
