@@ -15,7 +15,10 @@ public class Metodos {
                 -quais os parâmetros necessários para executar o método?
                 -há algum risco de o método apresentar alguma exceção?
                 -qual a visibilidade do método?
-
-            */
+                    -visível a toda aplicação
+                    -visível somente nos mesmos pacotes
+                    -visível através de herança
+                    -visível somente a nível da própria classe
+        */
     }
 }
