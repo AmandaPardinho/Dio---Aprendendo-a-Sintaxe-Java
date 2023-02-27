@@ -17,5 +17,7 @@ public class OperadoresTernarios {
 
         String resultado = a == b ? "verdadeiro" : "falso";
         System.out.println(resultado);
+
+        //Operadores ternários: a primeira expressão é sempre um boolean
     }
 }
