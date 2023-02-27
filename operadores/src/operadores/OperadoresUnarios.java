@@ -1,6 +1,6 @@
 package operadores;
 
-public class Operadores {
+public class OperadoresUnarios {
     public static void main(String[] args) {
         int numero1 = 5;
 
