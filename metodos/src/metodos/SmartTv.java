@@ -15,7 +15,7 @@ public class SmartTv {
         String volume1;
         int valorVolume1 = 15;
         String volume2;
-        int aumentVolume;
+        int aumentaVolume;
         int diminuiVolume;
 
 
@@ -36,7 +36,17 @@ public class SmartTv {
                     System.out.println("Você quer aumentar o volume? s/n");
                     volume2 = scanner.next();
 
-                   
+                    do{
+                        aumentaVolume = valorVolume1++;
+                        System.out.println("Vol " + aumentaVolume);
+                    }while(volume2 == "s");
+
+                    if(volume2 == "n"){
+                        System.out.println("O volume está bom? s/n");
+                        volume1 = scanner.next();
+
+                    }
+
 
                 }
 
