@@ -45,6 +45,12 @@ public class SmartTv {
                         System.out.println("O volume está bom? s/n");
                         volume1 = scanner.next();
 
+                        if(volume1 == "n"){
+                            System.out.println("Vol " + valorVolume1);
+                        }else{
+
+                        }
+
                     }
 
 
