@@ -3,8 +3,18 @@ package metodos;
 import java.util.Scanner;
 
 public class TV {
+    static Scanner scanner = new Scanner(System.in);
+    public mudarCanal(int canal){
+        char escolha;
+        System.out.println("Quer mudar de canal? s/n");
+        escolha = scanner.next();
+    }
+
+
+
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+
 
         int ligaDesliga;
 
