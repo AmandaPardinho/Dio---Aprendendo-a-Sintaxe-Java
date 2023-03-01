@@ -12,7 +12,12 @@ public class SmartTv {
         String mudaCanal;
         String imagem;
         int canal = 4;
-        int volume;
+        String volume1;
+        int valorVolume1 = 15;
+        String volume2;
+        int aumentVolume;
+        int diminuiVolume;
+
 
         System.out.println("A TV está mostrando alguma imagem? s/n");
         imagem = scanner.next();
@@ -22,6 +27,20 @@ public class SmartTv {
             ligaDesliga = true;
 
             if(ligaDesliga){
+                System.out.println("O volume está bom? s/n");
+                volume1 = scanner.next();
+
+                if(volume1 == "s"){
+                    System.out.println("Vol " + valorVolume1);
+                }else{
+                    System.out.println("Você quer aumentar o volume? s/n");
+                    volume2 = scanner.next();
+
+                   
+
+                }
+
+
                 System.out.println("Quer mudar de canal? s/n");
                 mudaCanal = scanner.next();
 
