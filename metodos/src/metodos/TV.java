@@ -4,10 +4,16 @@ import java.util.Scanner;
 
 public class TV {
     static Scanner scanner = new Scanner(System.in);
-    public mudarCanal(int canal){
-        char escolha;
+    public int mudarCanal(int canal){
+        String escolha;
         System.out.println("Quer mudar de canal? s/n");
         escolha = scanner.next();
+
+        if(escolha == "s"){
+            System.out.println("Digite o número do canal desejado:");
+            canal = scanner.nextInt();
+        }
+        return canal;
     }
 
 
