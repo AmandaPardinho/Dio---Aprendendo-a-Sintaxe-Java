@@ -1,4 +1,4 @@
 package metodos;
 
-public class RegulagemTv {
+public class SmartTv {
 }
