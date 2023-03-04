@@ -1,6 +1,6 @@
 package metodos;
 
-public class SmartTv {
+public class LigaDesliga {
     STATUS statusTv;
     String simNao;
 
