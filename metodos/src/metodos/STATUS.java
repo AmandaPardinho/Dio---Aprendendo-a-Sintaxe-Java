@@ -1,2 +1,6 @@
-package metodos;public enum STATUS {
+package metodos;
+
+public enum STATUS {
+    LIGADA,
+    DESLIGADA
 }
