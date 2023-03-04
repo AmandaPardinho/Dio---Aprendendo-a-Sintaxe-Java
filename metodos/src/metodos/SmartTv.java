@@ -1,4 +1,8 @@
 package metodos;
 
-public class SmartTv {
+public class AssiteTv {
+    STATUS statusTv;
+
+
+
 }
