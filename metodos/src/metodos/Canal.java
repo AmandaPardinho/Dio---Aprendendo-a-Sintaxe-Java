@@ -1,2 +1,4 @@
-package metodos;public class Canal {
+package metodos;
+
+public class Canal {
 }
