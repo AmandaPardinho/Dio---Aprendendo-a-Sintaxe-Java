@@ -1,2 +1,4 @@
-package metodos;public class SmartTv {
+package metodos;
+
+public class SmartTv {
 }
