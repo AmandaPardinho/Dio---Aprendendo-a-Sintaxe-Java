@@ -1,6 +1,6 @@
 package metodos;
 
 public enum STATUS {
-    LIGADA,
-    DESLIGADA
+    LIGAR,
+    DESLIGAR
 }
