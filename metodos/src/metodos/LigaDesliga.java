@@ -12,11 +12,13 @@ public class LigaDesliga {
         this.simNao = simNao;
     }
 
-    public String assitirTv(String simNao){
+    public STATUS assitirTv(String simNao){
         if(simNao.equals("s") || simNao.equals("S")){
             statusTv = STATUS.LIGAR;
+            return statusTv;
         }else{
             statusTv = STATUS.DESLIGAR;
+            return statusTv;
         }
     }
 
