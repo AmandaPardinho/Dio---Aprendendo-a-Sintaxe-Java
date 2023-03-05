@@ -12,9 +12,14 @@ public class SmartTv {
         volumeTV.setVolume("15");
         volumeTV.setVolumeMaior("s");
         volumeTV.setAumentaVolume("25");
-        System.out.println(volumeTV.mudarVolume(volumeTV.getVolumeIdeal()));
+        System.out.println("O volume atual é " + volumeTV.mudarVolume(volumeTV.getVolumeIdeal()));
 
-
+        Canal canalAtual = new Canal();
+        canalAtual.setCanal("4");
+        canalAtual.setMesmoCanal("n");
+        canalAtual.setOutroCanalMaior("n");
+        canalAtual.setCanalAbaixo("3");
+        System.out.println("Canal atual: " + canalAtual.mudarCanal(canalAtual.getMesmoCanal()));
 
     }
 }
