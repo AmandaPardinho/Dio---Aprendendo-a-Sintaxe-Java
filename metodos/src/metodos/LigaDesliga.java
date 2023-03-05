@@ -1,8 +1,8 @@
 package metodos;
 
 public class LigaDesliga {
-    STATUS statusTv;
-    String simNao;
+    private STATUS statusTv;
+    private String simNao;
 
     public String getSimNao() {
         return simNao;
@@ -21,5 +21,4 @@ public class LigaDesliga {
             return statusTv;
         }
     }
-
 }
